@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Sản Phẩm - Điện Lạnh An Tâm</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .product-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 30px; }
+        .p-card { background: white; border-radius: 10px; overflow: hidden; box-shadow: 0 5px 15px rgba(0,0,0,0.05); transition: 0.3s; text-align: center; padding-bottom: 20px; }
+        .p-card:hover { transform: translateY(-10px); }
+        .p-card img { width: 100%; height: 220px; object-fit: cover; }
+        .p-name { font-weight: bold; margin: 15px 0; font-size: 1.1rem; padding: 0 10px; }
+        .p-price { color: #e74c3c; font-size: 1.3rem; font-weight: bold; margin-bottom: 15px; }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">AN TÂM REFRIGERATION</div>
+        <nav><ul><li><a href="index.html">Trang chủ</a></li><li><a href="san-pham.html" class="active">Sản phẩm</a></li><li><a href="dich-vu.html">Dịch vụ</a></li><li><a href="lien-he.html">Liên hệ</a></li></ul></nav>
+    </header>
+
+    <div class="container">
+        <h2 class="section-title">Máy Lạnh Bán Chạy</h2>
+        <div class="product-grid">
+            <div class="p-card">
+                <img src="https://images.unsplash.com/photo-1595844730298-b960ff82fee1?w=400">
+                <div class="p-name">Daikin Inverter 1 HP FTKB25</div>
+                <div class="p-price">9.490.000đ</div>
+                <a href="lien-he.html" class="btn">Tư vấn mua</a>
+            </div>
+            <div class="p-card">
+                <img src="https://images.unsplash.com/photo-1585058177435-09511110034a?w=400">
+                <div class="p-name">Panasonic 1.5 HP XPU12</div>
+                <div class="p-price">11.890.000đ</div>
+                <a href="lien-he.html" class="btn">Tư vấn mua</a>
+            </div>
+        </div>
+    </div>
+    <footer><p>© 2026 Điện Lạnh An Tâm</p></footer>
+</body>
+</html>

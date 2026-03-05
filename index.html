@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Điện Lạnh An Tâm | Uy Tín - Chuyên Nghiệp</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        /* Slider giữ nguyên như cũ */
+        .slider { position: relative; height: 500px; overflow: hidden; background: #000; }
+        .slide { position: absolute; inset: 0; opacity: 0; transition: 1s ease-in-out; display: flex; flex-direction: column; justify-content: center; align-items: center; color: white; text-align: center; background-size: cover; background-position: center; }
+        .slide.active { opacity: 1; }
+        .slide::before { content: ""; position: absolute; inset: 0; background: rgba(0,0,0,0.5); }
+        .slide-content { position: relative; z-index: 2; padding: 0 20px; }
+        .slide h1 { font-size: 3.5rem; margin-bottom: 20px; }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">AN TÂM REFRIGERATION</div>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="active">Trang chủ</a></li>
+                <li><a href="san-pham.html">Sản phẩm</a></li>
+                <li><a href="dich-vu.html">Dịch vụ</a></li>
+                <li><a href="lien-he.html">Liên hệ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="slider">
+        <div class="slide active" style="background-image: url('https://images.unsplash.com/photo-1581094288338-2314dddb31b5?w=1200')">
+            <div class="slide-content">
+                <h1>Sửa Chữa Chuyên Nghiệp</h1>
+                <p>Khắc phục mọi sự cố điện lạnh trong 30 phút</p><br>
+                <a href="lien-he.html" class="btn">GỌI NGAY: 0909 123 456</a>
+            </div>
+        </div>
+        <div class="slide" style="background-image: url('https://images.unsplash.com/photo-1621905251189-08b45d6a269e?w=1200')">
+            <div class="slide-content">
+                <h1>Vệ Sinh Máy Lạnh Giá Rẻ</h1>
+                <p>Sạch bóng vi khuẩn - Tiết kiệm điện năng</p><br>
+                <a href="dich-vu.html" class="btn">XEM BẢNG GIÁ</a>
+            </div>
+        </div>
+    </div>
+
+    <section class="intro-section">
+        <h2 class="section-title">Tại sao nên chọn Điện Lạnh An Tâm?</h2>
+        <p>Chúng tôi tự hào là đơn vị hàng đầu tại TP.HCM chuyên cung cấp dịch vụ sửa chữa, bảo trì máy lạnh, tủ lạnh, máy giặt với tiêu chuẩn 5 sao.</p>
+        
+        <div class="features-grid">
+            <div class="feature-item">
+                <i class="fas fa-clock"></i>
+                <h3>Hỗ Trợ 24/7</h3>
+                <p>Có mặt ngay sau 30 phút kể cả ngày lễ và Chủ Nhật.</p>
+            </div>
+            <div class="feature-item">
+                <i class="fas fa-shield-halved"></i>
+                <h3>Bảo Hành Dài Hạn</h3>
+                <p>Bảo hành từ 6-12 tháng cho tất cả dịch vụ sửa chữa.</p>
+            </div>
+            <div class="feature-item">
+                <i class="fas fa-hand-holding-dollar"></i>
+                <h3>Giá Cả Minh Bạch</h3>
+                <p>Báo giá trước khi làm, không phát sinh chi phí phụ.</p>
+            </div>
+            <div class="feature-item">
+                <i class="fas fa-user-tie"></i>
+                <h3>Thợ Tay Nghề Cao</h3>
+                <p>Đội ngũ kỹ thuật viên giàu kinh nghiệm, tận tâm.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="process-section">
+        <h2 class="section-title">Quy Trình Làm Việc</h2>
+        <div class="process-steps">
+            <div class="step">
+                <div class="step-number">1</div>
+                <h3>Tiếp Nhận</h3>
+                <p>Nhận yêu cầu qua Hotline hoặc Form liên hệ.</p>
+            </div>
+            <div class="step">
+                <div class="step-number">2</div>
+                <h3>Kiểm Tra</h3>
+                <p>Kỹ thuật viên đến tận nơi kiểm tra tình trạng máy.</p>
+            </div>
+            <div class="step">
+                <div class="step-number">3</div>
+                <h3>Báo Giá</h3>
+                <p>Đưa ra giải pháp và mức chi phí tối ưu nhất.</p>
+            </div>
+            <div class="step">
+                <div class="step-number">4</div>
+                <h3>Sửa Chữa</h3>
+                <p>Tiến hành sửa chữa và bàn giao cho khách hàng.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="brand-section">
+        <h3 style="margin-bottom: 30px; color: #999;">CHUYÊN SỬA CHỮA CÁC DÒNG MÁY</h3>
+        <div class="brand-logos">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Daikin_logo.svg/1200px-Daikin_logo.svg.png" alt="Daikin">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Samsung_Logo.svg/2560px-Samsung_Logo.svg.png" alt="Samsung">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Panasonic_logo_v2.svg/1200px-Panasonic_logo_v2.svg.png" alt="Panasonic">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/LG_logo_%282015%29.svg/1024px-LG_logo_%282015%29.svg.png" alt="LG">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Toshiba_logo.svg/1200px-Toshiba_logo.svg.png" alt="Toshiba">
+        </div>
+    </section>
+
+    <footer>
+        <p><strong>CÔNG TY TNHH ĐIỆN LẠNH AN TÂM</strong><br>
+        📍 123 Đường Số 1, Quận 1, TP.HCM | 📞 0909 123 456<br>
+        Giờ làm việc: 07:00 - 21:00 (Thứ 2 - Chủ Nhật)</p>
+    </footer>
+
+    <script>
+        let i = 0; const s = document.querySelectorAll('.slide');
+        setInterval(() => { s[i].classList.remove('active'); i = (i + 1) % s.length; s[i].classList.add('active'); }, 5000);
+    </script>
+</body>
+</html>
